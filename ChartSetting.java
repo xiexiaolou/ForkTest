@@ -11,6 +11,7 @@
  */
 public interface ChartSetting {
 	public Info getInfo(DHBChartConfigBase config);
-	public void saveInfo(Info info, DHBChartConfigBase config);
+	public void closeInfo(Info info, DHBChartConfigBase configinfo);
 	public void doInit();
+	public void submit();
 }
